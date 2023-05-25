@@ -52,7 +52,6 @@ module.exports = () => {
         {
           test: /\.css$/i,
           use: ['style-loader', 'css-loader'],
-          use: [MiniCssExtractPlugin.loader, "css-loader"],
         },
         {
           test: /\.m?js$/,
